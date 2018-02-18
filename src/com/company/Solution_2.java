@@ -28,11 +28,12 @@ public class Solution_2 {
         }
         return dummyHead.next;
     }
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
 }
 
 
-class ListNode {
-    int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-  }
+
