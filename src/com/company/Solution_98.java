@@ -1,16 +1,17 @@
 package com.company;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
 
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 public class Solution_98 {
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
     public boolean isValidBST(TreeNode root) {
         return check(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
