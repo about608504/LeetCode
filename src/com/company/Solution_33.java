@@ -24,6 +24,7 @@ public class Solution_33 {
                 }
             }
         }
+
         return A[lo] == target ? lo : -1;
     }
 }
